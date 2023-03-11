@@ -2,12 +2,12 @@ import React from "react";
 
 import { FcGoogle } from "react-icons/fc";
 import { DiApple } from "react-icons/di";
-import { Apple, Email, Google, SignUp } from "./style";
+import { Apple, Email, Google, GoogleIcon, SignUp } from "./style";
 import { Link } from "react-router-dom";
 import { PATHS } from "../../Router";
 
 export default function EmailButton(props) {
-  return <Email>{props.title}</Email>;
+  return <Email type="submit">{props.title}</Email>;
 }
 
 export function AppleButton() {
@@ -17,8 +17,10 @@ export function AppleButton() {
 export function GoogleButton() {
   return (
     <Google>
+      <GoogleIcon>
       <FcGoogle />
-      Continue with Google
+      </GoogleIcon>
+      <p>Continue with Google</p>
     </Google>
   );
 }
