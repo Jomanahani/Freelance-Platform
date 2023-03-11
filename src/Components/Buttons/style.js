@@ -32,9 +32,14 @@ export const Google = styled.button`
   background-color: #4285f4;
   color: #f8ffff;
   font-size: 1rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
   border: none;
   outline: none;
+  &>p{
+    text-align: center;
+    margin: 0 auto;
+  }
 `;
 export const SignUp = styled.button`
   height: 2.5rem;
@@ -56,3 +61,14 @@ export const SignUp = styled.button`
     text-decoration: none;
   }
 `;
+export const GoogleIcon = styled.div`
+height: 2.5rem;
+width: 2.5rem;
+font-size: 1.2rem;
+background-color: white;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+align-self: flex-start;
+`

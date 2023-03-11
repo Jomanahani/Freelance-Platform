@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Form = styled.form`
+export const SignForm = styled.form`
 width: 33%;
 padding: 1.5rem 4rem;
 margin: 0 auto;
@@ -16,7 +16,6 @@ gap: 1.4rem;
     width: 45%;
     padding: 2rem 2.5rem;
     gap: 1.1rem;
-
 }
 `
 export const LoginTitle = styled.h1`
@@ -26,7 +25,11 @@ text-align: center;
 export const Flex = styled.div`
 display: flex;
 justify-content: space-between;
-&>input{
-    width: 47% ;
+&>div{
+    width: 47%;
 }
+`
+export const Error =styled.p`
+color:red;
+font-size: 0.8rem;
 `
