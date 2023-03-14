@@ -26,3 +26,7 @@ export const Spinner = styled.div`
     }
   }
 `;
+
+export const Container =styled.div`
+padding: 2% 15%;
+`

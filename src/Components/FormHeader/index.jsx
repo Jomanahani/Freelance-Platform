@@ -11,7 +11,7 @@ export const FormNav = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 0.7rem 1rem;
-  & > img {
+  &  img {
     height: 2.7rem;
   }
   & > div > p > span{
